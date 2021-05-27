@@ -1,8 +1,8 @@
 package prometheus_sd
 
 import (
-	"os"
 	"net"
+	"os"
 	"testing"
 
 	"github.com/stretchr/testify/assert"
