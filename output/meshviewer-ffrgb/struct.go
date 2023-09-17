@@ -32,6 +32,7 @@ type Node struct {
 	GatewayNexthop string                 `json:"gateway_nexthop,omitempty"`
 	GatewayIPv4    string                 `json:"gateway,omitempty"`
 	GatewayIPv6    string                 `json:"gateway6,omitempty"`
+	GatewayTQ      float64                `json:"gateway_tq,omitempty"`
 	NodeID         string                 `json:"node_id"`
 	MAC            string                 `json:"mac"`
 	Addresses      []string               `json:"addresses"`
